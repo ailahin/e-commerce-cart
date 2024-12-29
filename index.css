@@ -1,0 +1,119 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+/* Navigation bar styles */
+.navbar {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+}
+
+.navbar li {
+    margin: 0 1rem;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    display: block;
+    transition: background-color 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: #555;
+    border-radius: 4px;
+}
+.search-input{
+    display: flex;
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+}
+.search-bar-text{
+    background-color:  rgb(8, 137, 115);
+    border-radius: 10px 0 0 10px;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+   
+.search-bar{
+    width:50%;
+    border: 2.5px solid rgb(8, 137, 115);
+    border-left: 0;
+    border-radius: 0 10px 10px 0; 
+    padding: 20px;
+    font-weight: bold;
+    outline: none;
+}
+
+
+.details {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    padding: 1rem;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.card-details {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+    text-align: center;
+    padding: 1rem;
+}
+
+.card-details img {
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    object-fit: cover;
+}
+
+.card-details h2 {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+}
+
+.card-details p {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+    color: #666;
+}
+
+.card-details h3 {
+    font-size: 1.1rem;
+    color: #e63946;
+    margin: 0.5rem 0;
+}
+.items-number{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    margin: auto;
+    
+ }
